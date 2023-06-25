@@ -9,7 +9,7 @@ struct Arguments {
 use text_colorizer::*;
 
 fn print_usage() {
-    eprintln!("{} - change occurences of one string into another",
+    eprintln!("{} - change occurences of one string into another ...",
               "quickreplace".green());
     eprintln!("Usage: quickreplace <target> <replacement> <INPUT> <OUTPUT>");
 }
